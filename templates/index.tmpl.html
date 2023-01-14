@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 8px;
+        }
+
+        .about-section {
+            padding: 50px;
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+
+        .container {
+            padding: 0 16px;
+        }
+
+        .container::after,
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .title {
+            color: black;
+        }
+
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="about-section">
+        <h1>ДІСКОРД БОТ КОТРИЙ СПАСЕ ВАС ВІД ТРИВОГ ТА РАКЕТ!</h1>
+        <p>Якшо бот вас не спав то ви лох!</p>
+        <p>Якшо ви відвідали цей чат ви лох!</p>
+    </div>
+
+    <h2 style="text-align:center">Наша Команда</h2>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="https://media.npr.org/assets/img/2017/09/12/macaca_nigra_self-portrait-3e0070aa19a7fe36e802253048411a38f14a79f8-s1100-c50.jpg"
+                    alt="Oleg" style="width:100%">
+                <div class="container">
+                    <h2>Олег Лисяк</h2>
+                    <p class="title">Королева Сервера</p>
+                    <p>Співзасновник благородного сервера Кул Кідс Клаб</p>
+                    <p>petroporoshenko@rochen.com</p>
+                    <p><button class="button">Написати листа</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="https://i.natgeofe.com/n/bb13f61c-edaa-4ad9-8230-879a2d2d1ad4/6924567_2x1.jpg" alt="Ivan"
+                    style="width:100%">
+                <div class="container">
+                    <h2>Іван Каленич</h2>
+                    <p class="title">Презедент Сервера</p>
+                    <p>Співзасновник благородного сервера Кул Кідс Клаб</p>
+                    <p>ivanko@kalenych.com</p>
+                    <p><button class="button">Написати листа</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="https://media.istockphoto.com/id/899747778/photo/keep-smiling.jpg?s=612x612&w=0&k=20&c=XlcR7c2Prn4stZidQ5uLcGnipiG5h1qHGQMP9RxgI9M="
+                    alt="Nazar" style="width:100%">
+                <div class="container">
+                    <h2>Назар Маланчук</h2>
+                    <p class="title">Спонсор</p>
+                    <p>К-сть відвідування на рік: 3 рази</p>
+                    <p>petroporoshenko2@rochen.com</p>
+                    <p><button class="button">Написати листа</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 style="padding-left:20px">Кул Кідс Клаб © 2022-2023 All rights reserved</h2>
+</body>
+
+</html>
