@@ -1,6 +1,6 @@
 # Lviv Alarm Bot ![version](https://img.shields.io/badge/version-1.0.0-blue)
 
-<img src="https://github.com/ooleglysiak/lviv-alarm-niger-bot/blob/master/images/monkey.jpeg" align="right"
+<img src="https://github.com/granpahacker/lviv_alarm_bot/blob/main/images/monkey.jpeg" align="right"
      alt="Super monkey" width="350" height="250">
 
 To run this bot you need:
